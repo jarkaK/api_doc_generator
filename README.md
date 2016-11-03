@@ -1,5 +1,7 @@
 # Api Doc Generator
 
+- early stage of development, not ready yet
+
 Generation of API documentation using the Blueprint format specs that supports Rack::Test specs.
 
 The Blueprint documentation is generated according to its specifications and can be directly used with Aglio.

@@ -21,7 +21,9 @@ RSpec.configure do |config|
   end
 
   config.after(:each, type: :request) do
-    document_endpoint if ENV['GENERATE_DOCS']
+    return unless ENV['GENERATE_DOCS']
+
+    document_endpoint
     include_endpoints
   end
 end
