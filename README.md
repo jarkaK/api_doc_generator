@@ -84,9 +84,6 @@ The output:
             {
               "data": [
                 {
-                  "type": "events",
-                  "id": "2",
-                  "attributes": {
                     "id": 2,
                     "title": "End of world event",
                     "description": null,
@@ -95,29 +92,8 @@ The output:
                     "user_id": 2,
                     "created_at": "2016-11-01T22:19:59.212Z",
                     "updated_at": "2016-11-01T22:19:59.212Z"
-                  },
-                  "links": {
-                    "self": "/events/2"
-                  },
-                  "relationships": {
-                    "user": {
-                      "links": {
-                        "self": "/events/2/relationships/user",
-                        "related": "/events/2/user"
-                      }
-                    },
-                    "gifts": {
-                      "links": {
-                        "self": "/events/2/relationships/gifts",
-                        "related": "/events/2/gifts"
-                      }
-                    }
-                  }
                 },
                 {
-                  "type": "events",
-                  "id": "1",
-                  "attributes": {
                     "id": 1,
                     "title": "Wedding event",
                     "description": null,
@@ -126,29 +102,8 @@ The output:
                     "user_id": 1,
                     "created_at": "2016-11-01T22:19:59.208Z",
                     "updated_at": "2016-11-01T22:19:59.208Z"
-                  },
-                  "links": {
-                    "self": "/events/1"
-                  },
-                  "relationships": {
-                    "user": {
-                      "links": {
-                        "self": "/events/1/relationships/user",
-                        "related": "/events/1/user"
-                      }
-                    },
-                    "gifts": {
-                      "links": {
-                        "self": "/events/1/relationships/gifts",
-                        "related": "/events/1/gifts"
-                      }
-                    }
-                  }
                 }
-              ],
-              "links": {
-                "self": "/events"
-              }
+              ]
             }
             
 
